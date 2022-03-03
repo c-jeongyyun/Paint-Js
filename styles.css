@@ -1,0 +1,56 @@
+/* 뭐 import 하기 */
+
+body{background-color: rgb(236, 217, 189);}
+.canvas{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 370px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+}
+.controls{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.controls_range{
+    margin-bottom: 10px;
+}
+.controls_range input{
+    cursor: pointer;
+}
+.controls_btns{
+    margin-bottom: 20px;
+}
+.controls_btns button{
+    all: unset;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 60px;
+    height: 20px;
+    padding: 0px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.controls_btns button:active{
+    transform: scale(0.98);
+}
+.controls_colors{
+    display: flex;
+}
+.controls_color{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+    border-radius: 25px;
+    cursor: pointer;
+}
